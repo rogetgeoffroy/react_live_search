@@ -1,0 +1,14 @@
+.localjson-form-input input{
+    width: 40%;
+    font-size: 22px;
+}
+.localjson-form-input button{
+    margin: -7px 0 0 10px;
+}
+
+.localjson-container .hidden{
+    display: none;
+}
+.localjson-container .show{
+    display: block;
+}
