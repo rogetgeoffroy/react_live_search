@@ -13,6 +13,7 @@ import CarouselSlider from './components/carousel';
 import Grid from './components/grid';
 import BasicToggle from './components/basicToggle';
 import LocalJson from './components/localJson';
+import Body from './components/pageBody';
 import Footer from './components/footer';
 
 import menuIcon from './assets/menu_icon.png';
@@ -157,30 +158,7 @@ export default class Main extends Component {
                             </div>
                         </div>
 
-                        <section className="masthead">
-                            <div className="container h-100">
-                                <div className="row h-100 align-items-center">
-                                    <div className="col-sm-2 hidden-xs"></div>
-                                    <div className="col-12 col-sm-8 text-center">
-                                        <p className="small-text est">Est. 1912</p>
-                                        <h1 className="font-weight-light">The New Classic</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
-                                        <div className="view-availabilty">
-                                            <a>View Availability</a>
-                                        </div>
-                                    </div>
-                                    <div className="col-sm-2 hidden-xs"></div>
-                                </div>
-                            </div>
-                        </section>
-
-                        <section class="py-5">
-                            <div class="container">
-                                <h2 class="font-weight-light">Page Content</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
-                            </div>
-                        </section>
+                        <Body />
 
                     </div>
 

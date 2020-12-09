@@ -1,0 +1,56 @@
+.textwave-container .amenities.is-animation {
+    margin-top: 0.6em;
+}
+.textwave-container .amenities.is-animation span {
+    display: inline-block;
+    animation: wave-text 1s ease-in-out infinite;
+}
+.textwave-container .amenities.is-animation span:nth-of-type(1) {
+    animation-delay: 0s;
+}
+.textwave-container .amenities.is-animation span:nth-of-type(2) {
+    animation-delay: 0.1s;
+}
+.textwave-container .amenities.is-animation span:nth-of-type(3) {
+    animation-delay: 0.2s;
+}
+.textwave-container .amenities.is-animation span:nth-of-type(4) {
+    animation-delay: 0.3s;
+}
+.textwave-container .amenities.is-animation span:nth-of-type(5) {
+    animation-delay: 0.4s;
+}
+.textwave-container .amenities.is-animation span:nth-of-type(6) {
+    animation-delay: 0s;
+}
+.textwave-container .amenities.is-animation span:nth-of-type(7) {
+    animation-delay: 0.1s;
+}
+.textwave-container .amenities.is-animation span:nth-of-type(8) {
+    animation-delay: 0.2s;
+}
+.textwave-container .amenities.is-animation span:nth-of-type(9) {
+    animation-delay: 0.3s;
+}
+@keyframes wave-text {
+    0% {
+        transform: translateY(0em);
+   }
+    60% {
+        transform: translateY(1em);
+   }
+    100% {
+        transform: translateY(0em);
+   }
+}
+.amenities .textwave-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 100vw;
+    height: 100vh;*/
+    font-size: 2vw;
+    font-family: 'Helvetica', cursive;
+    color: #8ba48a;
+    letter-spacing: 3px;
+}

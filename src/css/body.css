@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@1&display=swap');
+
+/*-------------------------------*/
+/*            Body            */
+/*-------------------------------*/
+
+section h1.font-weight-light{
+    font-family: 'Lexend Zetta', sans-serif;
+    color: #8ba48a;
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 60px;
+  }
+  
+  .masthead .small-text.est{
+    text-transform: uppercase;
+    font-family: 'Jomolhari', serif;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  
+  .view-availabilty a{
+    font-family: 'Michroma', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+  }
+
+.section-two .amenities .align-items-left,
+.section-two .amenities .align-items-left div{
+    padding: 0;
+}
+
+.section-two .text-body{
+    text-align: left;
+    max-width: 500px;
+    line-height: 1.2;
+}
+.section-two .text-body h1{
+    text-align: left;
+    line-height: 1.2;
+}
+.section-two .amenities .align-items-left img,
+.section-three .residences .align-items-left img{
+    width: 100%;
+}
+
+.section-two .amenities .textwave-container .amenities.is-animation{
+    margin-left: -145px;
+    width: 100%;
+}
+.section-two .container.amenities{
+    margin: 20px 0;
+}
+.section-two .container.amenities .quick-fact{
+    font-family: 'Fanwood Text', serif;
+    font-size: 14px;
+    margin-left: 80px;
+    margin-top: 165px;
+    text-align: justify;
+}
+
+.section-two .amenities .textwave-container .amenities.is-animation:nth-child(2){
+    margin-top: 70px;
+}
+.section-two .amenities .textwave-container .amenities.is-animation:nth-child(3){
+    margin-top: 140px;
+}
+.section-two .amenities .textwave-container .amenities.is-animation:nth-child(4){
+    margin-top: 210px;
+}
+.section-two .amenities .textwave-container .amenities.is-animation:nth-child(5){
+    margin-top: 280px;
+}
+
+section.section-three{
+    background: #8ba48a;
+}
+section.section-three h1.font-weight-light{
+    color: #fff;
+    line-height: 43px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.section-three .residences .textwave-container .residences.is-animation{
+    margin-left: -145px;
+    width: 100%;
+}
+.section-three .container.residences{
+    margin: -50px 0 20px 0;
+    padding: 0;
+}
+.section-three .residences .residences-text-wave{
+    width: 150px;
+    margin-left: 180px;
+    margin-top: -267px;
+}
+.section-three .container.residences .quick-fact{
+    font-family: 'Fanwood Text', serif;
+    font-size: 14px;
+    margin-left: 80px;
+    margin-top: 165px;
+    text-align: justify;
+}
+
+.section-three .container.residences .text-center p{
+    padding: 0 100px;
+}
+
+.section-three .residences .textwave-container .residences.is-animation:nth-child(2){
+    margin-top: 80px;
+}
+.section-three .residences .textwave-container .residences.is-animation:nth-child(3){
+    margin-top: 160px;
+}
+.section-three .residences .textwave-container .residences.is-animation:nth-child(4){
+    margin-top: 240px;
+}
+.section-three .residences .textwave-container .residences.is-animation:nth-child(5){
+    margin-top: 320px;
+}
+
